@@ -1,12 +1,16 @@
 import React from 'react'
-import Event from './Event'
+import YouTube from './YouTube/Sidebar'
 
-function App() {
+
+// import YouTube from "./YouTube"
+
+ function App() {
   return (
-    <div>
-      <Event/>
+    <div style={{padding:"20px"}}>
+      <YouTube/>
     </div>
   )
 }
+ export default App
 
-export default App
+ 
